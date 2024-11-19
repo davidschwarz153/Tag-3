@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: magenta
+    ;
+}
+
+nav{
+    background-color: black;
+    margin: 10px;
+    padding-left: 50px;;
+}
+nav p a{
+    color:yellow;
+}
+
+h1{
+    margin: 20px 10px;
+}
+
+section a, section span{
+    
+    color:yellow;
+}
+
+img{
+    margin: 10px;
+}
+
+img:nth-of-type(1){
+    height:400px;
+    width:400px;
+}
+
+img:nth-of-type(2){
+    height: 600px;
+    width:600px
+    
+}
+
+img:nth-last-of-type(3){
+    height:800px;
+    width:600px;
+}
